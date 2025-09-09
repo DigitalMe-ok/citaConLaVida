@@ -1,13 +1,10 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer"; 
-import BannerCards from "./components/BannerCards";
 import Carousel  from "./components/carousel"
-import imgBanner from "../public/imgInicio.jpg"
 import TextImage from "./components/textImage";
 import Meetings from "./components/meetings";
 import Locations from "./components/locations";
 import imgAbUs from "../public/portada.webp";
-import CartaEst from "./components/cartaEst";
 import NavRedes from "./components/navRedes";
 import SoyNuevo from "./components/soyNuevo";
 export default function Home() {
