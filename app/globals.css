@@ -1,0 +1,204 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+@theme inline {
+  --color-navInactivo:#fff1;
+  --color-navActivo:#c1c1cc;
+  --color-navResponsiveIn:#fffa;
+  --color-navResponsiveAc:#fffd;
+  --color-cardSoyNuevoIn: #450a0ace;
+  --color-cardSoyNuevoAc: #450a0aa;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-cardInactive:#fffa;
+  --color-cardActive:#fffd
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.redesLogo{
+  width: 40%;
+}
+.bannerInicio{
+  height:700px;
+}
+.linkActivo{
+  color: rgb(136, 0, 0);
+  
+}
+.parrafoTxtImg{
+  min-width: 28rem;
+}
+.textAndBtn{
+  padding: 20rem;
+}
+@keyframes entradaCard {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes entradaZoomInCard {
+  0% {
+    opacity:0;
+    transform: scale(0.2);
+  }
+  100% {
+    opacity:1;
+    transform: scale(1);  
+  }
+
+}
+.containerTxtImg{
+  padding: 1rem;
+}
+.imgTxtImg{
+  min-width: 10rem;
+  max-width: 40rem;
+}
+.containerDatos{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.divisionDatos{
+  min-height: 5rem;
+}
+.cardSiembrBanner{
+  padding: 2rem;
+}
+.containerTxtBann{
+  max-width: 56rem;
+}
+.cardsMujBanner{
+  flex-direction: row;
+}
+.tituloContacto{
+  font-size: 3.75rem;
+}
+.carouselGallery{
+  width: 45%;
+  text-align: center;
+}
+.toastSoyNuevo{
+    animation: entradaCard 1s  ease-in ;
+}
+.containerTxtImg{
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.txtImgContainer{
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-right: 0;
+}
+.titleLocat{
+  font-size: 3.75rem;
+}
+@media (min-width:1614px ) {
+  .bannerInicio{
+    height:800px;
+  }
+}
+@media (max-width:1140px){
+  .containerTxtImg{
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .txtImgContainer{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media(max-width:800px){
+  .textAndBtn{
+    padding: 10rem;
+  }
+}
+@media (max-width:730px) {
+  .imgTxtImg{
+    min-width: 10rem;
+    max-width: 20rem;
+  } 
+  .parrafoTxtImg{
+    min-width: 24rem;
+  }
+  .cardsMujBanner{
+    flex-direction: column;
+  }
+}
+@media(max-width:510px){
+  .cardSiembrBanner{
+    padding: 1rem;
+  }
+}
+
+@media (max-width:430px){
+  .textAndBtn{
+    padding: 5rem;
+  }
+  .cardSiembrBanner{
+    padding: 0.25rem;
+  }
+  .containerTxtImg{
+    padding: none;
+  }
+  .parrafoTxtImg{
+    min-width: 20rem;
+  }
+}
+@media (max-width:400px){
+  .containerDatos{
+    flex-flow: column nowrap;
+  }
+  .divisionDatos{
+    min-height: 1px;
+    min-width: 15rem;
+  }
+  .titleLocat{
+    font-size: 2.75rem;
+  }
+}
+@media(max-width:360px){
+  .imgTxtImg{
+    min-width: 10rem;
+    max-width: 15rem;
+  }
+  
+.tituloContacto{
+  font-size: 2.75rem;
+}
+}
+@media (min-width:200px ) {
+  .bannerInicio{
+    height:1000px;
+  }
+}
