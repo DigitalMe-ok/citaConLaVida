@@ -2,7 +2,7 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #fff;
 }
 @theme inline {
   --color-navInactivo:#fff1;
@@ -103,6 +103,22 @@ body {
 .toastSoyNuevo{
     animation: entradaCard 1s  ease-in ;
 }
+.txtBannMuj{
+  margin-bottom:20rem;
+}
+@keyframes dissapearToast {
+  0%{
+    transform: translateZ(0);
+  }
+  100%{
+    transform: translateZ(400px);
+  }
+}
+.desaparecerToast{
+  animation: dissapearToast 1s;
+  transform: translateZ(400px);
+  
+}
 .containerTxtImg{
   align-items: center;
   justify-content: center;
@@ -153,6 +169,9 @@ body {
   }
   .cardsMujBanner{
     flex-direction: column;
+  }
+  .txtBannMuj{
+    margin-bottom: 5rem;
   }
 }
 @media(max-width:510px){

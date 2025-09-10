@@ -24,13 +24,13 @@ export default function SiembraPage() {
         <h2 className="text-2xl text-gray-300 text-center">Datos para transferir</h2>
         <div className="cards containerDatos justify-center items-center ">
           <div className="card flex flex-col justify-center items-center cardSiembrBanner">
-            <h3 className="text-200 text-lg font-bold ">Alias</h3>
-            <p className="text-300 text-md">CITA.PESOS.GALICIA</p>
+            <h3 className="text-gray-200 text-200 text-lg font-bold ">Alias</h3>
+            <p className="text-gray-200 text-300 text-md">CITA.PESOS.GALICIA</p>
           </div>
-          <hr className="border-1 divisionDatos"></hr>
+          <hr className="text-gray-200 border-1 divisionDatos"></hr>
           <div className="card flex flex-col justify-center items-center cardSiembrBanner">
-            <h3 className="text-200 text-lg font-bold ">CBU</h3>
-            <p className="text-300 text-md">0070138530004062070170</p>
+            <h3 className="text-gray-200 text-200 text-lg font-bold ">CBU</h3>
+            <p className="text-gray-200 text-300 text-md">0070138530004062070170</p>
           </div>
         </div>
       </div>

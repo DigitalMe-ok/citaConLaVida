@@ -61,8 +61,8 @@ export default function Equipo() {
      <Navbar />
 
 <BannerCards imgBanner={imgBanner} bgOpacity={"xl"}> 
-  <h1 className="text-6xl text-center text-gray-200 mb-15">Cita con la vida</h1>
-  <h2 className="text-lg">CITA CON LA VIDA MONTECRISTO</h2>
+  <h1 className="text-6xl text-center text-gray-200 mb-15">Equipo de colaboradores</h1>
+  <h2 className="text-gray-300 text-lg">CITA CON LA VIDA MONTECRISTO</h2>
 </BannerCards>
 
 {/* Team Section */}

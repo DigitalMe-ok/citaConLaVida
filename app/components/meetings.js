@@ -8,7 +8,7 @@ const Meetings = () => {
       title: "Reunión de hombres"
     },
     {
-      day: "Miercoles",
+      day: "Miércoles",
       time: "20:00 HS",
       title: "Reunión de Oración"
     },
@@ -24,12 +24,12 @@ const Meetings = () => {
       title: "Reunión de Intercesión"
     },
     {
-      day: "Sabado",
+      day: "Sábado",
       time: "20:00 HS",
       title: "Reunión de pre-ados y jovenes"
     },
     {
-      day: "Sabado",
+      day: "Sábado",
       time: "16:00 HS",
       title: "Merenderos"
     },
@@ -77,7 +77,7 @@ const Meetings = () => {
             Nuestras Reuniones
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Únete a nuestra familia de fe en estos momentos especiales de adoración, 
+            Únete a nuestra familia de fé en estos momentos especiales de adoración, 
             comunión y crecimiento espiritual. Cada reunión es una oportunidad para 
             conectarte con Dios y con tu comunidad.
           </p>
@@ -147,7 +147,7 @@ const Meetings = () => {
                 Planificar mi visita
               </button> */}
             <Link href="/contacto"> <button className="border-2 border-red-950 text-amber-950 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-red-800 hover:text-white transition-all duration-300 transform hover:scale-105">
-                Contactar con nosotros
+                Contáctanos
               </button></Link> 
             </div>
           </div>

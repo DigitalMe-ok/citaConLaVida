@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 
 export const metadata = {
   title: "Sembrar | Cita con la Vida",
-  description: "Actividades, reuniones y visión de Cita kids.",
+  description: "Siembra, diezmos  y ofrendas.",
 };
 
 export default function SiembraLayout({ children }) {

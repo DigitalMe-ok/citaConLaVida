@@ -2,8 +2,8 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Escuela de musicos | Cita con la Vida",
-  description: "Actividades, reuniones y visión de Cita kids.",
+  title: "Campamentos | Cita con la Vida",
+  description: "Campamentos cristianos.",
 };
 
 export default function escMusicLayout({ children }) {

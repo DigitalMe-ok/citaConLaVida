@@ -2,8 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 export const metadata = {
-  title: "Soy Nuevo | Cita con la Vida",
-  description: "Actividades, reuniones y visión de Cita kids.",
+  title: "Soy Nuevo | Cita con la Vida"
 };
 
 export default function SoyNuevoLayout({ children }) {

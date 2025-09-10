@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 
 export const metadata = {
   title: "Ministerio de Hombres | Cita con la Vida",
-  description: "Actividades, reuniones y visión del Ministerio de Hombres.",
+  description: "Ministerio de hombres",
 };
 
 export default function HombresLayout({ children }) {

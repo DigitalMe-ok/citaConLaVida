@@ -5,9 +5,9 @@ import NavRedes from "@/app/components/navRedes";
 import CarouselGaleria from "@/app/components/CarouselGalleria";
 export default function HombresPage() {
   const imgsParaCarousel= [
-    "/hombres1.jpg",
-    "/hombres2.jpg",
-    "/hombres3.jpg"
+    "/Hombres1.jpg",
+    "/Hombres2.jpg",
+    "/Hombres3.jpg"
   ]
   return (
     <>

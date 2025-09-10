@@ -35,7 +35,7 @@ const Carousel = ({imgs,children}) => {
                         <div key={index} className={`absolute  w-full h-full transition-opacity duration-700 ease-in-out ${index === currentSlide ? 'opacity-100' : 'opacity-0'}`}  data-carousel-item>
 
 
-                            <img src={item}className={`mask-alpha mask-l-from-black mask-l-from-5% bg-[url(${item})] absolute block  w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2`}  alt={item.text}/>
+                            <img src={item}className={`mask-alpha mask-l-from-black mask-l-from-5% bg-[url(${item})] absolute block  w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2`}  alt={"imgBanner"}/>
                             
                             <div className="absolute w-full h-full flex flex-col justify-center items-center bottom-5 left-5 right-0 max-w-150 bg-transparent text-white p-4">
                                <div className='flex flex-col justify-center items-start'>{children}</div>

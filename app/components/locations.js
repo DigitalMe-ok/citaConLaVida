@@ -53,9 +53,9 @@ const Locations = () => {
             <div className="text-center   ">
               <div className="textAndBtn flex flex-col items-center  gap-5   rounded-xl">
 
-                <h2 className="text-2xl">Pje. Cervantes 675</h2>
-                <h3 className="text-2xl">Montecristo, Córdoba</h3>
-                <h4 className="text-lg font-thin">República Argentina</h4>
+                <h2 className="text-gray-200 text-2xl">Pje. Cervantes 675</h2>
+                <h3 className="text-gray-200 text-2xl">Montecristo, Córdoba</h3>
+                <h4 className="text-gray-200 text-lg font-thin">República Argentina</h4>
                 <Link href={"https://maps.app.goo.gl/oyyFShX9P2LyCnrd9"} className="p-2 bg-red-900 rounded-lg hover:bg-red-600 max-w-100 ">Ver en el mapa</Link>
             </div>
             </div>

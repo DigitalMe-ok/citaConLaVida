@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Cita con la vida Montecristo",
-  description: "Iglesia evangelica",
+  description: "Iglesia evangélica pentecostés ubicada en Montecristo provincia de Córdoba Argentina.",
   icons:{
     icon:"/logoBlanco.png"
   }

@@ -22,7 +22,7 @@ const textImg=({title,paragraph,img,imgDist,children})=> {
                 imgDist == "izq"?
                 <><section className="flex flex-col gap-10  w-full  mt-10  containerTxtImg">
                 <div className="flex flex-row  gap-5 h-full text-gray-800 w-full txtImgContainer" >
-                <img src={img} className="imgTxtImg rounded-xl" ></img>
+                <img src={img} className="imgTxtImg rounded-xl" alt="imagen institucional"></img>
                         <div className="flex flex-col flex-wrap items-center justify-around h-full ">
                         <h2 className="text-3xl text-center ">{title}</h2>
                             <p className="parrafoTxtImg text-lg max-w-3xl  text-center">{paragraph}
@@ -48,7 +48,7 @@ const textImg=({title,paragraph,img,imgDist,children})=> {
                         
                             </div>
                             <div>
-                        <img src={img} className=" rounded-xl  imgTxtImg"></img>
+                        <img src={img} className=" rounded-xl  imgTxtImg"  alt="imagen institucional"></img>
                                     
                         </div>
                         

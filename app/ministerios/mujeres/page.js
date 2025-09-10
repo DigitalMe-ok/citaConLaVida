@@ -10,7 +10,7 @@ export default function MujeresPage() {
   const textoDiscipulado = ` Un espacio donde las mujeres pueden crecer espiritualmente, fortalecer sus relaciónes con Dios y entre ellas, y ser equipadas para enfrentar los desafíos de la vida cotidiana con fé y confianza. ¡Te esperamos!`
   const imgsParaCarousel = [
     
-      "/mujeres.jpg",
+      "/Mujeres.jpg",
 
 
     "/mujeres2.jpg",
@@ -24,7 +24,7 @@ export default function MujeresPage() {
     <BannerCards imgBanner={imgBanner} className="mt-60 mb-50 flex flex-col gap-10 justify-center items-center">
 
     <h1 className="text-4xl text-gray-200">Ministerio de mujeres</h1>
-    <h2 className="text-md text-gray-300 mb-40">CITA CON LA VIDA MONTECRISTO</h2>
+    <h2 className="text-md text-gray-300 txtBannMuj">CITA CON LA VIDA MONTECRISTO</h2>
     <div className="flex cardsMujBanner gap-10">
     <div  className="block max-w-sm p-6 bg-red-200 border border-gray-200 rounded-lg shadow-sm hover:bg-red-300">
       <h5 className="mb-2 text-2xl  tracking-tight text-gray-900">{"La mujer virtuosa es corona de su marido; ella es digna de honra y su vida refleja la sabiduría de Dios."}</h5>

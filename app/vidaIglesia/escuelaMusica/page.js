@@ -27,7 +27,7 @@ export default function EscMusicPage() {
     }
     </section>
      <Parallax img={bannerMusicos.src}>
-      <p className="max-w-300 text-xl text-center">
+      <p className="text-gray-200 max-w-300 text-xl text-center">
       {"Cada talento y don que Dios nos da es una oportunidad para adorarle con todo nuestro ser. Como músicos, somos instrumentos en Sus manos, llamados a glorificar a Dios a través de la música, llevando Su mensaje de amor y esperanza al mundo."  }
       </p>      
       

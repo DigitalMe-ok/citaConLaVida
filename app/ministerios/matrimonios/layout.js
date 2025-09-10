@@ -1,6 +1,10 @@
 // app/layouts/MinisterioLayout.jsx
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+export const metadata = {
+  title: "Ministerio de matrimonios | Cita con la Vida",
+  description: "Ministerio de matrimonios",
+};
 
 export default function MinisterioLayout({ children }) {
   return (

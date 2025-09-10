@@ -1,6 +1,10 @@
 // app/layouts/MinisterioLayout.jsx
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
+export const metadata = {
+  title: "Ministerio de mujeres | Cita con la Vida",
+  description: "Ministerio de mujeres",
+};
 
 export default function MinisterioLayout({ children }) {
   return (

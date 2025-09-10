@@ -39,7 +39,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Nosotros | Cita con la vida",
-  description: "Iglesia evangélica",
+  description: "Iglesia evangélica pentecostés",
 };
 
 export default function NosotrosLayout({ children }) {
