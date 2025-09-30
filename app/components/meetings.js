@@ -4,34 +4,40 @@ const Meetings = () => {
     
     {
       day: "Martes",
-      time: "20:00 HS",
-      title: "Reunión de hombres"
+      time: "17:00 HS",
+      title: "Danza"
     },
     {
       day: "Miércoles",
       time: "20:00 HS",
-      title: "Reunión de Oración"
+      title: "Reunión general"
     },
     {
       day: "Jueves",
-      time: "20:00 HS",
+      time: "20:30 HS",
       title: "Rompiendo cadenas",
       description: "Orientación para salir de las adicciones"
     },
     {
+      day: "Tercer Jueves del mes",
+      time: "20:00 HS",
+      title: "Reunión de matrimonios",
+      description: "Orientación para matrimonios"
+    },
+    {
       day: "Viernes",
       time: "20:00 HS",
-      title: "Reunión de Intercesión"
+      title: "Reunión general"
     },
     {
       day: "Sábado",
       time: "20:00 HS",
-      title: "Reunión de pre-ados y jovenes"
+      title: "Reunión de jovenes"
     },
     {
       day: "Sábado",
-      time: "16:00 HS",
-      title: "Merenderos"
+      time: "11:00 HS",
+      title: "CitaKids"
     },
     {
       day: "Domingo",

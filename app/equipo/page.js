@@ -28,7 +28,7 @@ export default function Equipo() {
     },
     {
       img:adiccImg.src,
-      nombre:"Nahuel Feidman y Matias Cid",
+      nombre:"Nahuel Feldmann y Matias Cid",
       ministerio:"Ministerio de Adicciones",
       descripcion:"Reunión los jueves 21:00 HS"
 

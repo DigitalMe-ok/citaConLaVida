@@ -30,9 +30,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4">Vida de la Iglesia</h3>
           <ul className="space-y-2 text-gray-800">
-          
-            <li><Link href="/vidaIglesia/escuelaMusica" className="hover:text-sky-700">Escuela de Música</Link></li>
-            <li><Link href="/vidaIglesia/campamentos" className="hover:text-sky-700">Campamento</Link></li>
+            <li><Link href="/vidaIglesia/campamentos" className="hover:text-sky-700">Campamentos</Link></li>
           </ul>
           <h3 className="text-lg font-semibold mb-4">Redes sociales</h3>
           <div className="grid gap-1 grid-cols-3">
@@ -48,7 +46,6 @@ export default function Footer() {
           <ul className="space-y-2 text-gray-800">
             <li><Link href="/nosotros" className="hover:text-sky-700">Nosotros</Link></li>
             <li><Link href="/soyNuevo" className="hover:text-sky-700">Soy Nuevo</Link></li>
-            <li><Link href="/contacto" className="hover:text-sky-700">Contacto</Link></li>
           </ul>
           <div className="mt-6 text-sm text-gray-800 space-y-2">
             <p>📍 Pje. Cervantes 675 Montecristo- Córdoba, Argentina</p>

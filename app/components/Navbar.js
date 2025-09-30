@@ -220,22 +220,6 @@ export default function Navbar() {
                     </Link>
                     */}
                     <Link 
-                      href="/vidaIglesia/escuelaMusica" 
-                      className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200"
-                    > 
-                      <div className="flex items-center space-x-3">
-                        <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
-                          <svg className="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
-                          </svg>
-                        </div>
-                        <div>
-                          <p className="font-medium">Escuela de Música</p>
-                          <p className="text-sm text-gray-500">Formación musical</p>
-                        </div>
-                      </div>
-                    </Link>
-                    <Link 
                       href="/vidaIglesia/campamentos" 
                       className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200"
                     >
@@ -261,14 +245,6 @@ export default function Navbar() {
                 className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 relative group"
               >
                 Nuestro Equipo
-                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
-              </Link>
-
-              <Link 
-                href="/contacto" 
-                className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 relative group"
-              >
-                Contacto
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
 
@@ -357,22 +333,7 @@ export default function Navbar() {
                         </div>
                       </div>
                     </Link> */}
-                    <Link 
-                      href="/vidaIglesia/escuelaMusica" 
-                      className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200"
-                    >
-                      <div className="flex items-center space-x-3">
-                        <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
-                          <svg className="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path>
-                          </svg>
-                        </div>
-                        <div>
-                          <p className="font-medium">Escuela de Música</p>
-                          <p className="text-sm text-gray-500">Formación musical</p>
-                        </div>
-                      </div>
-                    </Link>
+
                     <Link 
                       href="/vidaIglesia/campamentos" 
                       className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200"
@@ -516,13 +477,6 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Nuestro Equipo
-              </Link>
-              <Link 
-                href="/contacto" 
-                className="block px-3 py-2 text-base font-medium text-gray-700 hover:text-red-600 hover:bg-gray-50 rounded-lg transition-colors duration-200"
-                onClick={() => setIsOpen(false)}
-              >
-                Contacto
               </Link>
               <Link 
                 href="/siembra" 

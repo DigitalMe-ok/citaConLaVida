@@ -41,8 +41,8 @@ Los jóvenes enfrentan decisiones importantes sobre su futuro. El ministerio deb
       <section className="py-12 px-6 bg-gray-100 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Horarios de Reunión</h2>
         <p className="text-lg text-gray-700">
-          📅 Todos los <strong>sábados </strong> a las <strong>19:30 hs</strong> <br />
-          📍 Salón juvenil de la iglesia
+          📅 Todos los <strong>sábados </strong> a las <strong>20:00 hs</strong> <br />
+          📌 IGLESIA CITA CON LA VIDA MONTECRISTO
         </p>
       </section>
       <h3 className="text-stone-800 text-center w-full mb-10 mt-5 text-5xl">Galería</h3>

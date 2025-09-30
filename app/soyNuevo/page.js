@@ -10,58 +10,58 @@ import { useState } from "react";
 import { db } from "../firebase/config";
 import { collection,addDoc} from "firebase/firestore";
 export default function SoyNuevoPage() {
-      const [formData, setFormData] = useState({
-      nombre: "",
-      email: ""
+  //     const [formData, setFormData] = useState({
+  //     nombre: "",
+  //     email: ""
             
-    });
-    const [isSubmitting, setIsSubmitting] = useState(false);
-    const [submitStatus, setSubmitStatus] = useState(null);
+  //   });
+  //   const [isSubmitting, setIsSubmitting] = useState(false);
+  //   const [submitStatus, setSubmitStatus] = useState(null);
   
-  const postNewPerson = async (datos)=>{
-    console.log(datos);
+  // const postNewPerson = async (datos)=>{
+  //   console.log(datos);
     
-    try{
-    const coleccion = collection(db,"soyNuevo");
-    const fecha= new Date();
-    const item = {fecha:fecha,...datos}
-    console.log(item);
+  //   try{
+  //   const coleccion = collection(db,"soyNuevo");
+  //   const fecha= new Date();
+  //   const item = {fecha:fecha,...datos}
+  //   console.log(item);
     
-    const response = await addDoc(coleccion,item);
-    console.log(response);
-    return response
-  } catch(e){
-      return e;
-    }
+  //   const response = await addDoc(coleccion,item);
+  //   console.log(response);
+  //   return response
+  // } catch(e){
+  //     return e;
+  //   }
 
-  }
+  // }
 
-    const handleChange = (e) => {
-      const { name, value } = e.target;
-      setFormData(prev => ({
-        ...prev,
-        [name]: value
-      }));
-    };
+  //   const handleChange = (e) => {
+  //     const { name, value } = e.target;
+  //     setFormData(prev => ({
+  //       ...prev,
+  //       [name]: value
+  //     }));
+  //   };
   
-    const handleSubmit = async (e) => {
-      e.preventDefault();
-      const response = postNewPerson(formData);
-      console.log(response);
+  //   const handleSubmit = async (e) => {
+  //     e.preventDefault();
+  //     const response = postNewPerson(formData);
+  //     console.log(response);
       
-      // Simulate form submission
-      setTimeout(() => {
-        setIsSubmitting(false);
-        setSubmitStatus("success");
-        setFormData({
-          nombre: "",
-          apellido: "",
-          email: "",
-          telefono: "",
-          mensaje: ""
-        });
-      }, 2000);
-    };
+  //     // Simulate form submission
+  //     setTimeout(() => {
+  //       setIsSubmitting(false);
+  //       setSubmitStatus("success");
+  //       setFormData({
+  //         nombre: "",
+  //         apellido: "",
+  //         email: "",
+  //         telefono: "",
+  //         mensaje: ""
+  //       });
+  //     }, 2000);
+  //   };
   
   const txtSoyNuevo = `Pero la semilla que cae en buena tierra se refiere a alguien que oye la palabra y la entiende. Este es el que produce una cosecha, que rinde cien, sesenta o treinta veces lo sembrado”.`
   return (
@@ -74,7 +74,7 @@ export default function SoyNuevoPage() {
     </TextImg>
 
 
-    <div className="w-full bg-black py-10">
+    {/* <div className="w-full bg-black py-10">
   <form onSubmit={handleSubmit} className="max-w-sm mx-auto">
     <div className="mb-5">
       <label
@@ -135,7 +135,7 @@ export default function SoyNuevoPage() {
                           </button>
                         </div>
           </form>
-</div>
+</div> */}
 <section className="w-full bg-white py-16">
   <div className="max-w-6xl mx-auto text-center px-4">
     {/* Título */}

@@ -114,8 +114,8 @@ Mantener a Dios como nuestra prioridad más importante es esencial. 1 Corintios 
       <section className="py-12 px-6 bg-gray-100 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Horarios de Reunión</h2>
         <p className="text-lg text-gray-700">
-          📅 Todos los <strong>jueves</strong> a las <strong>20:00 hs</strong> <br />
-          📍 IGLESIA CITA CON LA VIDA MONTECRISTO
+          📅 Tercer <strong>jueves</strong> del mes a las <strong>20:00 hs</strong> <br />
+          📌 IGLESIA CITA CON LA VIDA MONTECRISTO
         </p>
       </section>
 

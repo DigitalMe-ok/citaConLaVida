@@ -103,11 +103,11 @@ Por sobre todas las cosas, creemos firmemente que la verdadera transformación l
       </section>
 
       {/* Horarios */}
-      <section className="py-16 px-6 bg-gradient-to-r from-blue-800 via-blue-400 to-blue-800 text-center text-white">
-  <h2 className="text-4xl font-bold mb-6">🕒 Horarios de Reunión</h2>
-  <p className="text-lg leading-relaxed">
+      <section className="py-16 px-6 bg-gradient-to-t from-blue-500  to-blue-00 text-center text-white">
+  <h2 className="text-4xl font-bold mb-6 text-gray-800">🕒 Horarios de Reunión</h2>
+  <p className="text-lg leading-relaxed text-gray-700">
     📅 Todos los <strong>Jueves</strong>  <br />
-    ⏰ 19:30 hs <br />
+    ⏰ 20:30 hs <br />
     📍  Iglesia CITA CON LA VIDA MONTECRISTO
   </p>
 </section>
