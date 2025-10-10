@@ -247,7 +247,13 @@ export default function Navbar() {
                 Nuestro Equipo
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
-
+              <Link 
+                href="/contacto" 
+                className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 relative group"
+              >
+                Contacto
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
+              </Link>
               {/* CTA Button */}
               <Link 
                 href="/siembra" 
@@ -255,6 +261,7 @@ export default function Navbar() {
               >
                 Sembrar
               </Link>
+              
             </div>
 
             {/* Mobile menu button */}
@@ -477,6 +484,13 @@ export default function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Nuestro Equipo
+              </Link>
+              <Link 
+                href="/contacto" 
+                className="text-gray-700 hover:text-red-600 font-medium transition-colors duration-300 relative group"
+              >
+                Contacto
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-600 transition-all duration-300 group-hover:w-full"></span>
               </Link>
               <Link 
                 href="/siembra" 
