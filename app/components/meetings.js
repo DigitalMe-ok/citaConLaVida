@@ -1,162 +1,140 @@
-import Link from 'next/link';
+import Link from "next/link";
+
 const Meetings = () => {
   const meetings = [
-    
     {
       day: "Martes",
       time: "17:00 HS",
-      title: "Danza"
+      title: "Danza",
+      type: "infantil",
     },
     {
       day: "Miércoles",
       time: "20:00 HS",
-      title: "Reunión general"
+      title: "Reunión general",
+      type: "principal",
     },
     {
       day: "Jueves",
       time: "20:30 HS",
       title: "Rompiendo cadenas",
-      description: "Orientación para salir de las adicciones"
+      description: "Orientación para salir de las adicciones",
+      type: "oracion",
     },
     {
-      day: "Tercer Jueves del mes",
+      day: "Jueves",
       time: "20:00 HS",
-      title: "Reunión de matrimonios",
-      description: "Orientación para matrimonios"
+      title: "Escuela Para Padres",
+      description: "A partir del 14 de mayo. Duración 2 meses",
+      type: "estudio",
     },
     {
       day: "Viernes",
       time: "20:00 HS",
-      title: "Reunión general"
+      title: "Reunión general",
+      type: "principal",
     },
     {
       day: "Sábado",
       time: "20:00 HS",
-      title: "Reunión de jovenes"
+      title: "Jóvenes",
+      type: "jovenes",
     },
     {
       day: "Sábado",
       time: "11:00 HS",
-      title: "CitaKids"
+      title: "CitaKids",
+      type: "infantil",
     },
     {
       day: "Domingo",
       time: "19:30 HS",
       title: "Reunión general",
-    }
+      type: "principal",
+    },
   ];
 
-  const getTypeColor = (type) => {
-    const colors = {
-      principal: "bg-gradient-to-r from-amber-500 to-orange-600",
-      vespertino: "bg-gradient-to-r from-purple-500 to-pink-600",
-      oracion: "bg-gradient-to-r from-blue-500 to-cyan-600",
-      estudio: "bg-gradient-to-r from-green-500 to-emerald-600",
-      jovenes: "bg-gradient-to-r from-red-500 to-rose-600",
-      mujeres: "bg-gradient-to-r from-pink-500 to-rose-600",
-      hombres: "bg-gradient-to-r from-indigo-500 to-blue-600",
-      infantil: "bg-gradient-to-r from-yellow-500 to-orange-500"
+  const getTypeStyle = (type) => {
+    const styles = {
+      principal: "bg-white/10 border-white/20",
+      jovenes: "bg-red-500/10 border-red-400/30",
+      oracion: "bg-blue-500/10 border-blue-400/30",
+      estudio: "bg-green-500/10 border-green-400/30",
+      infantil: "bg-yellow-500/10 border-yellow-400/30",
     };
-    return colors[type] || "bg-gradient-to-r from-gray-500 to-gray-600";
-  };
-
-  const getTypeIcon = (type) => {
-    const icons = {
-      principal: "⛪",
-      vespertino: "🌅",
-      oracion: "🙏",
-      estudio: "📖",
-      jovenes: "🔥",
-      mujeres: "👩",
-      hombres: "👨",
-      infantil: "👶"
-    };
-    return icons[type] || "⛪";
+    return styles[type] || "bg-white/10 border-white/20";
   };
 
   return (
-    <section className="py-20 bg-gradient-to-br from-slate-50 to-gray-100">
+   <section className="py-24 bg-gradient-to-b from-[#2a2a2a] to-[#121212] text-white">
       <div className="max-w-7xl mx-auto px-6">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-bold text-gray-900 mb-6">
+        
+        {/* HEADER */}
+        <div className="text-center mb-20">
+          <h2 className="text-5xl font-bold mb-6 tracking-tight">
             Nuestras Reuniones
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Únete a nuestra familia de fé en estos momentos especiales de adoración, 
-            comunión y crecimiento espiritual. Cada reunión es una oportunidad para 
-            conectarte con Dios y con tu comunidad.
+          <p className="text-gray-400 max-w-2xl mx-auto text-lg">
+            Espacios pensados para conectar, crecer y compartir en comunidad.
           </p>
-          <div className="w-24 h-1 bg-gradient-to-r from-amber-500 to-orange-600 mx-auto mt-8 rounded-full"></div>
         </div>
 
-        {/* Meetings Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        {/* GRID */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {meetings.map((meeting, index) => (
             <div
               key={index}
-              className="group relative bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden"
+              className={`group p-6 rounded-2xl border backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${getTypeStyle(
+                meeting.type
+              )}`}
             >
-              {/* Gradient Header */}
-              <div className={`${getTypeColor(meeting.type)} p-6 text-white relative overflow-hidden`}>
-                <div className="absolute top-0 right-0 w-32 h-32 bg-white opacity-10 rounded-full -translate-y-16 translate-x-16"></div>
-                <div className="absolute bottom-0 left-0 w-24 h-24 bg-white opacity-5 rounded-full translate-y-12 -translate-x-12"></div>
-                
-                <div className="relative z-10">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-2xl">{getTypeIcon(meeting.type)}</span>
-                    <span className="text-sm font-medium text-gray-800 bg-white bg-opacity-20 px-3 py-1 rounded-full">
-                      {meeting.day}
-                    </span>
-                  </div>
-                  <h3 className="text-xl font-bold mb-2">{meeting.title}</h3>
-                  <p className="text-sm opacity-90">{meeting.location}</p>
-                </div>
+              {/* TOP */}
+              <div className="flex justify-between items-start mb-6">
+                <span className="text-sm text-gray-400">
+                  {meeting.day}
+                </span>
+                <span className="text-xs px-3 py-1 rounded-full bg-white/10">
+                  {meeting.type}
+                </span>
               </div>
 
-              {/* Content */}
-              <div className="p-6">
-                <div className="flex items-center mb-4">
-                  <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mr-4">
-                    <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="text-2xl font-bold text-gray-900">{meeting.time}</p>
-                    <p className="text-sm text-gray-500">Hora de inicio</p>
-                  </div>
-                </div>
-                
-                <p className="text-gray-600 leading-relaxed mb-6">
-                  {meeting.description}
+              {/* TIME */}
+              <div className="mb-4">
+                <p className="text-3xl font-bold tracking-tight">
+                  {meeting.time}
                 </p>
               </div>
-              {/* Hover Effect Border */}
-              <div className="absolute inset-0 rounded-2xl border-2 border-transparent group-hover:border-amber-300 transition-all duration-300 pointer-events-none"></div>
+
+              {/* TITLE */}
+              <h3 className="text-xl font-semibold mb-2 group-hover:text-red-400 transition">
+                {meeting.title}
+              </h3>
+
+              {/* DESCRIPTION */}
+              {meeting.description && (
+                <p className="text-gray-400 text-sm leading-relaxed mb-4">
+                  {meeting.description}
+                </p>
+              )}
+
+              {/* LINE */}
+              <div className="w-full h-px bg-white/10 my-4"></div>
+
+              {/* CTA */}
+              <button className="text-sm text-red-400 hover:text-red-300 transition">
+                Ver más →
+              </button>
             </div>
           ))}
         </div>
 
-        {/* Call to Action */}
-        <div className="mt-20 text-center">
-          <div className="bg-gradient-to-r from-red-50 to-orange-50 rounded-3xl p-12 border border-red-200">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">
-              ¿Primera vez en nuestra iglesia?
-            </h3>
-            <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Te invitamos a comenzar con nuestro culto principal del domingo. 
-              Será un honor recibirte y acompañarte en tu caminar espiritual.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            {/*   <button className="bg-gradient-to-r from-red-950 to-orange-900 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-red-700 hover:to-orange-800 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
-                Planificar mi visita
-              </button> */}
-            <Link href="/contacto"> <button className="border-2 border-red-950 text-amber-950 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-red-800 hover:text-white transition-all duration-300 transform hover:scale-105">
-                Contáctanos
-              </button></Link> 
-            </div>
-          </div>
+        {/* CTA FINAL */}
+        <div className="mt-24 text-center">
+          <Link href="/contacto">
+            <button className="px-10 py-4 rounded-xl bg-red-700 hover:bg-red-600 transition text-white font-semibold shadow-lg hover:shadow-red-900/40">
+              Contáctanos
+            </button>
+          </Link>
         </div>
       </div>
     </section>

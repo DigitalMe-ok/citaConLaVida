@@ -1,47 +1,64 @@
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer"; 
-import Carousel  from "./components/carousel"
-import TextImage from "./components/textImage";
+import Footer from "./components/Footer";
+import Carousel from "./components/carousel";
 import Meetings from "./components/meetings";
 import Locations from "./components/locations";
-import imgAbUs from "../public/portada.webp";
 import NavRedes from "./components/navRedes";
 import SoyNuevo from "./components/soyNuevo";
+import EscParaPadres from "./components/EscParaPadres";
+
 export default function Home() {
-const infoEstadistica = [
-  {
-    title:"Ministerios",
-    stat:4
-  }
-]
-const paragraphAbUs=`
+
+  const imgs = [
+    "/escparaPadres.png", // 🔥 Evento (sin overlay ni texto)
+    "/CarouselMain2.jpeg",
+    "/carousel1.jpg"
+  ];
+
+  const paragraphAbUs = `
 Creemos en una vida transformada por el poder del amor de Dios. Nuestro propósito es inspirar y equipar a las personas para vivir una vida plena y significativa en Cristo. 
 Nuestra misión es proporcionar un lugar donde cada persona pueda experimentar el amor incondicional de Dios, crecer en su relación con Él y ser capacitado para marcar una diferencia positiva en el mundo.
 Nuestras reuniones
 `;
-const imgs =["/CarouselMain2.jpeg","/carousel1.jpg"]
 
   return (
     <>
-    
       <Navbar />
-      <Carousel imgs={imgs} bgOpacity={"xl"} style={{backgroundColor:"#000d"}}> 
-      
-      <h1 className="text-6xl text-gray-200 mb-15">Bienvenido a la iglesia de la familia</h1>
-      <h2 className="text-lg">CITA CON LA VIDA MONTECRISTO</h2>
 
+      {/* HERO */}
+      <Carousel imgs={imgs}>
+        <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+          Bienvenido a la iglesia de la familia
+        </h1>
+
+        <h2 className="text-lg md:text-xl text-gray-200">
+          CITA CON LA VIDA MONTECRISTO
+        </h2>
       </Carousel>
-   <TextImage title={"Cita Con la vida Montecristo"} paragraph={paragraphAbUs} img={imgAbUs.src}>
 
-   </TextImage>
+      {/* INTRO */}
+      <section className="py-20 bg-gray-50 text-center">
+        <h2 className="text-4xl font-bold text-gray-900 mb-6">
+          Cita Con la Vida Montecristo
+        </h2>
+
+        <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          {paragraphAbUs}
+        </p>
+      </section>
 
       <Meetings />
-      <SoyNuevo></SoyNuevo>
+
+      {/* EVENTO DESTACADO */}
+      <EscParaPadres />
+
+      <SoyNuevo />
 
       <Locations />
-      <NavRedes/>
-      <Footer />
 
+      <NavRedes />
+
+      <Footer />
     </>
   );
 }
