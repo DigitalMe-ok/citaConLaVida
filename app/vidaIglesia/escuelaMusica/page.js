@@ -1,9 +1,9 @@
 import BannerCards from "../../components/BannerCards";
 import Image from "next/image";
 import Parallax from "@/app/components/parallax";
-import bannerMusicos from "@/public/bannerMusicos.jpeg"
+import bannerMusicos from "@/public/bannerMusicos.webp"
 import TextImg from "@/app/components/textImage";
-import danzaImg from "@/public/danzaImg.jpg";
+import danzaImg from "@/public/danzaImg.webp";
 import NavRedes from "@/app/components/navRedes";
 import Link from 'next/link';
 export default function EscMusicPage() {

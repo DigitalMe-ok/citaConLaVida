@@ -1,7 +1,7 @@
 // app/ministerios/jovenes/page.jsx
 import Image from "next/image";
-import img from "@/public/imgNosotros.jpg"
-import imgBanner from "../../../public/bannerMujeres.jpg";
+import img from "@/public/imgNosotros.webp"
+import imgBanner from "../../../public/bannerMujeres.webp";
 import BannerCards from "@/app/components/BannerCards";
 import TextImg from "@/app/components/textImage";
 
@@ -10,12 +10,12 @@ export default function MujeresPage() {
   const textoDiscipulado = ` Un espacio donde las mujeres pueden crecer espiritualmente, fortalecer sus relaciónes con Dios y entre ellas, y ser equipadas para enfrentar los desafíos de la vida cotidiana con fé y confianza. ¡Te esperamos!`
   const imgsParaCarousel = [
     
-      "/Mujeres.jpg",
+      "/Mujeres.webp",
 
 
-    "/mujeres2.jpg",
+    "/mujeres2.webp",
 
-      "/jovenes3.jpg"
+      "/jovenes3.webp"
 
   ]
   return (

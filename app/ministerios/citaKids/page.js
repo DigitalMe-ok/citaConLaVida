@@ -74,20 +74,20 @@ export default function CitaKidsPage() {
 // app/ministerios/citakids/page.jsx
 import BannerCards from "../../components/BannerCards";
 import Image from "next/image";
-import imgBanner from "@/public/Bannerkids.jpg"
+import imgBanner from "@/public/Bannerkids.webp"
 import NavRedes from "@/app/components/navRedes";
 import CarouselGaleria from "@/app/components/CarouselGalleria";
 export default function CitaKidsPage() {
   const imgsParaCarousel = [
-    "/capacitacion.jpeg",
-    "/capacitacion2.jpeg",
-    "/capacitacion3.jpeg",
-    "/capacitacion4.jpeg",
-    "/capacitacion5.jpeg",
-    "/capacitacion6.jpeg",
-    "/capacitacion7.jpeg",
-    "/capacitacion8.jpeg",
-    "/capacitacion1.jpeg"
+    "/capacitacion.webp",
+    "/capacitacion2.webp",
+    "/capacitacion3.webp",
+    "/capacitacion4.webp",
+    "/capacitacion5.webp",
+    "/capacitacion6.webp",
+    "/capacitacion7.webp",
+    "/capacitacion8.webp",
+    "/capacitacion1.webp"
   ]
   return (
     <>    

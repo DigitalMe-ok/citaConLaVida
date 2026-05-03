@@ -1,14 +1,14 @@
 // app/ministerios/jovenes/page.jsx
 import BannerCards from "../../components/BannerCards";
 import Image from "next/image";
-import imgBanner from "../../../public/bannerJovenes.jpg";
+import imgBanner from "../../../public/bannerJovenes.webp";
 import NavRedes from "@/app/components/navRedes";
 import CarouselGaleria from "@/app/components/CarouselGalleria";
 export default function JovenesPage() {
   const imgsParaCarousel = [ 
-    "/jovenes6.jpg",
-    "/jovenes4.jpg",
-    "/jovenes3.jpg"
+    "/jovenes6.webp",
+    "/jovenes4.webp",
+    "/jovenes3.webp"
   ]
   return (
     <>

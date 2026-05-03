@@ -2,9 +2,9 @@
 import BannerCards from "../components/BannerCards";
 import Image from "next/image";
 import Parallax from "@/app/components/parallax";
-import bannerMusicos from "@/public/bannerMusicos.jpeg"
+import bannerMusicos from "@/public/bannerMusicos.webp"
 import TextImg from "@/app/components/textImage";
-import imgSoyNuevo from "@/public/sembrar.jpg";
+import imgSoyNuevo from "@/public/sembrar.webp";
 import Link from "next/link";
 import { useState } from "react";
 import { db } from "../firebase/config";
@@ -146,7 +146,7 @@ export default function SoyNuevoPage() {
       {/* Card 1 */}
       <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
         <Image 
-          src="/recursos4.jpg" 
+          src="/recursos4.webp" 
           alt="Recurso 4" 
           fill 
           className="object-cover"
@@ -161,7 +161,7 @@ export default function SoyNuevoPage() {
       {/* Card 2 */}
       <div className="relative w-full h-64 rounded-xl overflow-hidden shadow-lg">
         <Image 
-          src="/recursos2.jpg" 
+          src="/recursos2.webp" 
           alt="Recurso 2" 
           fill 
           className="object-cover"

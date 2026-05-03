@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function EscParaPadres() {
   return (
-   <section className="relative py-24 mb-20 overflow-hidden">
+   <section className="relative py-24 mb-20 overflow-hidden" style={{backgroundImage:`url(/escparaPadres.webp)`,backgroundPosition:"center",backgroundSize:"100%"}}>
       
       {/* Background */}
-    <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800"></div>
+    <div className=" absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800"></div>
 
       {/* Overlay para suavizar */}
       <div className="absolute inset-0 bg-black/40"></div>

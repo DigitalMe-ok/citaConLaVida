@@ -1,11 +1,11 @@
 import BannerCards from "../../components/BannerCards";
 import Image from "next/image";
 import Parallax from "@/app/components/parallax";
-import bannerMusicos from "@/public/bannerMusicos.jpeg"
+import bannerMusicos from "@/public/bannerMusicos.webp"
 import TextImg from "@/app/components/textImage";
-import danzaImg from "@/public/danzaImg.jpg";
-import CampaFt from "@/public/Campa3.jpg"
-import CampaFtTxtImg from "@/public/Campa5.jpg"
+import danzaImg from "@/public/danzaImg.webp";
+import CampaFt from "@/public/Campa3.webp"
+import CampaFtTxtImg from "@/public/Campa5.webp"
 import Link from 'next/link';
 import NavRedes from "@/app/components/navRedes";
 export default function CampamentosPage() {

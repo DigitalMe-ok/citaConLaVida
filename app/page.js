@@ -1,18 +1,20 @@
+"use client"
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Carousel from "./components/carousel";
 import Meetings from "./components/meetings";
 import Locations from "./components/locations";
 import NavRedes from "./components/navRedes";
 import SoyNuevo from "./components/soyNuevo";
 import EscParaPadres from "./components/EscParaPadres";
+import dynamic from 'next/dynamic';
 
+const Carousel = dynamic(() => import('./components/carousel'), { ssr: false });
 export default function Home() {
 
   const imgs = [
-    "/escparaPadres.png", // 🔥 Evento (sin overlay ni texto)
-    "/CarouselMain2.jpeg",
-    "/carousel1.jpg"
+     // 🔥 Evento (sin overlay ni texto)
+    "/CarouselMain2.webp",
+    "/carousel1.webp"
   ];
 
   const paragraphAbUs = `

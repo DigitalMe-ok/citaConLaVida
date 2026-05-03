@@ -1,9 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import logo from "../../public/logo.avif"
-
-export default function Navbar() {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(null);
 
@@ -38,7 +36,7 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <Link href="/" className="flex items-center space-x-3 group">
                 <img 
-                  src={logo.src} 
+                  src="/logo.avif"
                   className="h-12 w-auto transition-transform duration-300 group-hover:scale-105" 
                   alt="Cita con la Vida Logo" 
                 />
@@ -505,3 +503,4 @@ export default function Navbar() {
     </header>
   );
 }
+export default Navbar;

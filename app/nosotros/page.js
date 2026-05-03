@@ -1,7 +1,7 @@
 /* import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"; 
 import BannerCards from "../components/BannerCards"
-import imgBanner from "../../public/imgNosotros.jpg"
+import imgBanner from "../../public/imgNosotros.webp"
 import AboutUs from "../components/textImage";
 import Meetings from "../components/meetings";
 import Locations from "../components/locations";
@@ -34,7 +34,7 @@ export default function Home() {
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import BannerCards from "../components/BannerCards";
-import imgBanner from "../../public/imgNosotros.jpg";
+import imgBanner from "../../public/imgNosotros.webp";
 import NavRedes from "../components/navRedes"
 
 import Image from "next/image";
@@ -65,7 +65,7 @@ Pastor de la Iglesia Cita con la Vida Monte Cristo
       <section className="py-16 bg-gray-50 text-center">
         <div className="max-w-4xl mx-auto px-6">
         <Image
-  src="/pastorSinFondo.png"
+  src="/pastorSinFondo.webp"
   alt="Pastor Principal"
   width={400}
   height={400}

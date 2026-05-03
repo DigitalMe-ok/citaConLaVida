@@ -1,13 +1,13 @@
 import BannerCards from "../../components/BannerCards";
 import Image from "next/image";
-import imgBanner from "../../../public/hombres5.jpg";
+import imgBanner from "../../../public/hombres5.webp";
 import NavRedes from "@/app/components/navRedes";
 import CarouselGaleria from "@/app/components/CarouselGalleria";
 export default function HombresPage() {
   const imgsParaCarousel= [
-    "/Hombres1.jpg",
-    "/Hombres2.jpg",
-    "/Hombres3.jpg"
+    "/Hombres1.webp",
+    "/Hombres2.webp",
+    "/Hombres3.webp"
   ]
   return (
     <>

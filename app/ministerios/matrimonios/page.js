@@ -61,9 +61,9 @@ Mantener a Dios como nuestra prioridad más importante es esencial. 1 Corintios 
  // app/ministerios/jovenes/page.jsx
 // app/ministerios/jovenes/page.jsx
 import Image from "next/image";
-import img from "@/public/pareja.jpeg";
+import img from "@/public/pareja.webp";
 import BannerCards from "@/app/components/BannerCards";
-import imgBanner from "../../../public/matrimonioBanner.jpg";
+import imgBanner from "../../../public/matrimonioBanner.webp";
 import TextImg from "@/app/components/textImage";
 import NavRedes from "@/app/components/navRedes";
 import Link from "next/link";
@@ -76,12 +76,12 @@ Mantener a Dios como nuestra prioridad más importante es esencial. 1 Corintios 
 
   const recursos = [
     {
-      img: "/recursos.jpg",
+      img: "/recursos.webp",
       alt: "Recurso 1",
       enlace: "http://citaconlavida.com.ar/radiohtml.html"
     },
     {
-      img: "/recursos1.jpg",
+      img: "/recursos1.webp",
       alt: "Recurso 2",
       enlace: "https://www.biblegateway.com/?language=es"
     },

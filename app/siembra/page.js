@@ -1,10 +1,10 @@
 import BannerCards from "../components/BannerCards";
 import Image from "next/image";
 import Parallax from "@/app/components/parallax";
-import bannerMusicos from "@/public/bannerMusicos.jpeg"
+import bannerMusicos from "@/public/bannerMusicos.webp"
 import TextImg from "@/app/components/textImage";
-import danzaImg from "@/public/danzaImg.jpg";
-import imgBanner from "@/public/siembraBanner.jpg"
+import danzaImg from "@/public/danzaImg.webp";
+import imgBanner from "@/public/siembraBanner.webp"
 import NavRedes from "../components/navRedes";
 export default function SiembraPage() {
  

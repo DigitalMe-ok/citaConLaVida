@@ -1,6 +1,6 @@
 // app/ministerios/citakids/page.jsx
 import BannerCards from "../../components/BannerCards";
-import imgBanner from "@/public/bannerAdicciones.jpg";
+import imgBanner from "@/public/bannerAdicciones.webp";
 import NavRedes from "@/app/components/navRedes";
 
 export default function MinisterioAdiccionesPage() {
