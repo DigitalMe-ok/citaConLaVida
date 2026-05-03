@@ -125,6 +125,86 @@ body {
   
 }
 
+.iconSectPadres{
+  animation: 4s iconoSectPadres infinite alternate-reverse;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.4s;
+}
+
+.iconSectPadres{
+  animation:4s iconoSectPadres infinite alternate-reverse;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: 0.4s;
+}
+@keyframes iconoSectPadres {
+  0%{
+    top:50%;
+    left:50%;
+  }
+  45%{
+    top:43%;
+    left:45%;
+  }
+  65%{
+    top:55%;
+    left:55%;
+  }
+  100%{
+    top:65%;
+  }
+}
+.iconSectPadres.activo{
+  opacity: 0;
+}
+.iconSectPadres.inactivo{
+  opacity: 1;
+}
+.escPadresSect{
+  height: 900px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.escPadresDiv{
+  transition: 0.8s;
+}
+
+.escPadresCont{
+  transition: 0.5s;
+}
+.inactivo{
+  opacity: 0.2;
+}
+
+.activo{
+  opacity: 1;
+}
+.escPadresCont.inactivo{
+  opacity: 0;
+  top: 00%;
+  left: 0%;
+}
+
+.escPadresCont.activo{
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+}
+.escPadresCont{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.4s;
+}
 .txtImgContainer{
   flex-wrap: wrap;
   align-items: center;
@@ -135,6 +215,7 @@ body {
 .titleLocat{
   font-size: 3.75rem;
 }
+
 @media (min-width:1614px ) {
   .bannerInicio{
     height:800px;

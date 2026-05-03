@@ -1,17 +1,21 @@
+"use client"
 import Link from "next/link";
-
+import { useEffect, useState } from "react";
+import { Pointer } from "lucide-react";
 export default function EscParaPadres() {
+  const [animacionEnter,setAnimacionEnter] = useState(false);
+
   return (
-   <section className="relative py-24 mb-20 overflow-hidden" style={{backgroundImage:`url(/escparaPadres.webp)`,backgroundPosition:"center",backgroundSize:"100%"}}>
+   <section onMouseEnter={ (e) => setAnimacionEnter(true)} onMouseLeave={(e) => setAnimacionEnter(false)} className="escPadresSect relative py-24 mb-20 overflow-hidden" style={{backgroundImage:`url(/escparaPadres.webp)`,backgroundPosition:"center",backgroundSize:"100%", backgroundRepeat:"no-repeat"}}>
       
       {/* Background */}
-    <div className=" absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800"></div>
+    <div className={`${animacionEnter? "activo" :"inactivo"} escPadresDiv absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800`}></div>
 
       {/* Overlay para suavizar */}
       <div className="absolute inset-0 bg-black/40"></div>
-
+      <Pointer className={`${animacionEnter? "activo" :"inactivo"} iconSectPadres`}/>
       {/* Contenido */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center text-white">
+      <div className={`${animacionEnter? "activo" :"inactivo"} escPadresCont relative z-10 max-w-6xl mx-auto px-6 text-center text-white`}>
         
         {/* Badge */}
         <div className="inline-block mb-6 px-4 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-sm">
