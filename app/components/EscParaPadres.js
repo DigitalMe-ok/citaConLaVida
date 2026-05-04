@@ -6,7 +6,7 @@ export default function EscParaPadres() {
   const [animacionEnter,setAnimacionEnter] = useState(false);
 
   return (
-   <section onMouseEnter={ (e) => setAnimacionEnter(true)} onMouseLeave={(e) => setAnimacionEnter(false)} className="escPadresSect relative py-24 mb-20 overflow-hidden" style={{backgroundImage:`url(/escparaPadres.webp)`,backgroundPosition:"center",backgroundSize:"100%", backgroundRepeat:"no-repeat"}}>
+   <section onMouseEnter={ (e) => setAnimacionEnter(true)} onMouseLeave={(e) => setAnimacionEnter(false)} className="escPadresSect">
       
       {/* Background */}
     <div className={`${animacionEnter? "activo" :"inactivo"} escPadresDiv absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800`}></div>

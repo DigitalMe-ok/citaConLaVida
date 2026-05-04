@@ -88,7 +88,7 @@ const Locations = () => {
 
             <div className="relative z-10">
               <h3 className="text-4xl font-bold mb-6">
-                Este es nuestro canal de Youtube.
+                Este es nuestro canal de YouTube.
               </h3>
               <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
                 Conéctate a nuestro canal, Revive y vuelve a escuchar la palabra
@@ -101,7 +101,7 @@ const Locations = () => {
                 <Link href="https://www.youtube.com/@citaconlavidamontecristo3858">
                   {" "}
                   <button className="border-2 border-white text-white px-10 py-4 font-bold text-lg hover:bg-white hover:text-gray-900 transition-all duration-300 transform hover:scale-105 rounded-xl">
-                    Youtube
+                    YouTube
                   </button>
                 </Link>
               </div>
