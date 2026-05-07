@@ -18,9 +18,9 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Ministerios</h3>
           <ul className="space-y-2 text-gray-800">
           <li><Link href="/ministerios/adicciones" className="hover:text-sky-700">Adicciones</Link></li> 
-            <li><Link href="/ministerios/mujeres" className="hover:text-sky-700">Mujeres</Link></li>
+            {/* <li><Link href="/ministerios/mujeres" className="hover:text-sky-700">Mujeres</Link></li> */}
             <li><Link href="/ministerios/hombres" className="hover:text-sky-700">Hombres</Link></li>
-            <li><Link href="/ministerios/matrimonios" className="hover:text-sky-700">Matrimonios</Link></li>
+            {/* <li><Link href="/ministerios/matrimonios" className="hover:text-sky-700">Matrimonios</Link></li> */}
             <li><Link href="/ministerios/jovenes" className="hover:text-sky-700">Jóvenes</Link></li>
             <li><Link href="/ministerios/citaKids" className="hover:text-sky-700">CitaKids</Link></li>
           </ul>
