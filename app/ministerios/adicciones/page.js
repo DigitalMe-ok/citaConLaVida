@@ -20,7 +20,7 @@ export default function MinisterioAdiccionesPage() {
       {/* Nuestra misión */}
       <section className="py-20 px-6 max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-gray-800 mb-6">
-          🌿 Nuestra Misión
+           Nuestra Misión
         </h2>
         <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
         Queremos compartir con ustedes el corazón y el propósito del grupo Rompiendo Cadenas, un ministerio que nació hace ya más de seis años dentro de nuestra iglesia, como una extensión del grupo de jóvenes, con un fuerte deseo de ayudar a personas en situación de adicción y lucha interior.<br />
@@ -44,19 +44,19 @@ Por sobre todas las cosas, creemos firmemente que la verdadera transformación l
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                title: "Fe en Cristo",
+                title: "Fé en Cristo",
                 desc: "Creemos que solo en Jesús hay verdadera libertad y restauración.",
-                icon: "✝️",
+                icon: "",
               },
               {
                 title: "Acompañamiento",
                 desc: "No caminamos solos. Cada proceso está rodeado de apoyo y comunidad.",
-                icon: "🤝",
+                icon: "",
               },
               {
                 title: "Esperanza",
                 desc: "Promovemos un futuro lleno de propósito, lejos de la esclavitud de las adicciones.",
-                icon: "🌟",
+                icon: "",
               },
             ].map((value, i) => (
               <div
@@ -104,7 +104,7 @@ Por sobre todas las cosas, creemos firmemente que la verdadera transformación l
 
       {/* Horarios */}
       <section className="py-16 px-6 bg-gradient-to-t from-blue-500  to-blue-00 text-center text-white">
-  <h2 className="text-4xl font-bold mb-6 text-gray-800">🕒 Horarios de Reunión</h2>
+  <h2 className="text-4xl font-bold mb-6 text-gray-800">Horarios de Reunión</h2>
   <p className="text-lg leading-relaxed text-gray-700">
     📅 Todos los <strong>Jueves</strong>  <br />
     ⏰ 20:30 hs <br />

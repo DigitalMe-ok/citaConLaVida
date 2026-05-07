@@ -24,7 +24,7 @@ export default function EscParaPadres() {
 
         {/* Título */}
         <h2 className="text-4xl md:text-6xl font-bold mb-6">
-          Escuela para Padres 👨‍👩‍👧
+          Escuela para Padres 
         </h2>
 
         {/* Descripción */}

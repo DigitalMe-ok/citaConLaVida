@@ -19,12 +19,12 @@ export default function Bautismo() {
     <section
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className="relative overflow-hidden py-24 px-6 mt-24 rounded-[1rem]"
+      className="relative overflow-hidden py-24 px-6 mt-24 rounded-[1rem] transitio duration-1000 ease-in-out"
     >
       {/* Background */}
       <div
         className={`
-          absolute inset-0 transition-all duration-700
+          absolute inset-0 transition duration-700
           ${
             hover
               ? "scale-105 bg-gradient-to-br from-sky-950 via-cyan-900 to-slate-900"
@@ -59,7 +59,7 @@ export default function Bautismo() {
 
         {/* Title */}
         <h2 className="text-4xl md:text-6xl font-extrabold text-center text-white mb-6">
-          Bautismo 🙏💧
+          Bautismo 
         </h2>
 
         {/* Description */}
@@ -107,14 +107,7 @@ export default function Bautismo() {
           </div>
         </div>
 
-        {/* CTA */}
-        <div className="text-center">
-          <Link href="/contacto">
-            <button className="px-8 py-4 rounded-2xl bg-white text-sky-900 font-bold text-lg hover:scale-105 transition duration-300 shadow-2xl">
-              Quiero más información
-            </button>
-          </Link>
-        </div>
+        
       </div>
     </section>
   );
