@@ -8,6 +8,13 @@ const Meetings = () => {
       title: "Danza",
       type: "infantil",
     },
+    {  day: "Martes",
+      time: " 20:00 HS",
+      title: "Reunión de Hombres",
+      type:" hombres"
+
+
+    },
     {
       day: "Miércoles",
       time: "20:00 HS",
