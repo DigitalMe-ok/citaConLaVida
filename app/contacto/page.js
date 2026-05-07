@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import BannerCards from "../components/BannerCards";
-import imgBanner from "../../public/Card3.webp";
+import imgBanner from "../../public/danza.webp";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../firebase/config";
 import emailjs from "@emailjs/browser"

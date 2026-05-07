@@ -7,6 +7,7 @@ import NavRedes from "./components/navRedes";
 import SoyNuevo from "./components/soyNuevo";
 import EscParaPadres from "./components/EscParaPadres";
 import dynamic from 'next/dynamic';
+import Bautismo from "./components/Bautismo";
 
 const Carousel = dynamic(() => import('./components/carousel'), { ssr: false });
 export default function Home() {
@@ -14,7 +15,11 @@ export default function Home() {
   const imgs = [
      // 🔥 Evento (sin overlay ni texto)
     "/CarouselMain2.webp",
-    "/carousel1.webp"
+    "/carousel1.webp",
+    "/santaCena.webp",
+    "/santaCena1.webp",
+    "/santaCena2.webp",
+    "/santaCena3.webp",
   ];
 
   const paragraphAbUs = `
@@ -55,6 +60,7 @@ Nuestras reuniones
       <EscParaPadres />
 
       <SoyNuevo />
+       <Bautismo/>   
 
       <Locations />
 
