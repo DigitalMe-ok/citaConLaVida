@@ -1,25 +1,28 @@
 import Link from "next/link";
 
 const Meetings = () => {
+
   const meetings = [
     {
       day: "Martes",
       time: "17:00 HS",
       title: "Danza",
       type: "infantil",
+      link: "/ministerios/citaKids",
     },
-    {  day: "Martes",
-      time: " 20:00 HS",
+    {
+      day: "Martes",
+      time: "20:00 HS",
       title: "Reunión de Hombres",
-      type:" hombres"
-
-
+      type: "hombres",
+      link: "/ministerios/hombres",
     },
     {
       day: "Miércoles",
       time: "20:00 HS",
       title: "Reunión general",
       type: "principal",
+      link: "/nosotros",
     },
     {
       day: "Jueves",
@@ -27,6 +30,7 @@ const Meetings = () => {
       title: "Rompiendo cadenas",
       description: "Orientación para salir de las adicciones",
       type: "oracion",
+      link: "/ministerios/adicciones",
     },
     {
       day: "Jueves",
@@ -34,30 +38,35 @@ const Meetings = () => {
       title: "Escuela Para Padres",
       description: "A partir del 14 de mayo. Duración 2 meses",
       type: "estudio",
+      link: "/ministerios/matrimonios",
     },
     {
       day: "Viernes",
       time: "20:00 HS",
       title: "Reunión general",
       type: "principal",
+      link: "/nosotros",
     },
     {
       day: "Sábado",
       time: "20:00 HS",
       title: "Jóvenes",
       type: "jovenes",
+      link: "/ministerios/jovenes",
     },
     {
       day: "Sábado",
       time: "11:00 HS",
       title: "CitaKids",
       type: "infantil",
+      link: "/ministerios/citaKids",
     },
     {
       day: "Domingo",
       time: "19:30 HS",
       title: "Reunión general",
       type: "principal",
+      link: "/nosotros",
     },
   ];
 
@@ -68,19 +77,22 @@ const Meetings = () => {
       oracion: "bg-blue-500/10 border-blue-400/30",
       estudio: "bg-green-500/10 border-green-400/30",
       infantil: "bg-yellow-500/10 border-yellow-400/30",
+      hombres: "bg-blue-500/10 border-blue-400/30",
     };
+
     return styles[type] || "bg-white/10 border-white/20";
   };
 
   return (
-   <section className="py-24 bg-gradient-to-b from-[#2a2a2a] to-[#121212] text-white">
+    <section className="py-24 bg-gradient-to-b from-[#2a2a2a] to-[#121212] text-white">
       <div className="max-w-7xl mx-auto px-6">
-        
+
         {/* HEADER */}
         <div className="text-center mb-20">
           <h2 className="text-5xl font-bold mb-6 tracking-tight">
             Nuestras Reuniones
           </h2>
+
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             Espacios pensados para conectar, crecer y compartir en comunidad.
           </p>
@@ -95,11 +107,13 @@ const Meetings = () => {
                 meeting.type
               )}`}
             >
+
               {/* TOP */}
               <div className="flex justify-between items-start mb-6">
                 <span className="text-sm text-gray-400">
                   {meeting.day}
                 </span>
+
                 <span className="text-xs px-3 py-1 rounded-full bg-white/10">
                   {meeting.type}
                 </span>
@@ -128,9 +142,12 @@ const Meetings = () => {
               <div className="w-full h-px bg-white/10 my-4"></div>
 
               {/* CTA */}
-              <button className="text-sm text-red-400 hover:text-red-300 transition">
+              <Link
+                href={meeting.link}
+                className="text-sm text-red-400 hover:text-red-300 transition inline-block"
+              >
                 Ver más →
-              </button>
+              </Link>
             </div>
           ))}
         </div>

@@ -21,7 +21,7 @@ export default function Equipo() {
     },
     {
       img: mujeresImg.src,
-      nombre: "Pra. Roxana Benigno",
+      nombre: "Pra. Rosana Benigno",
       ministerio: "Ministerio de mujeres",
       descripcion: "Reunión los jueves 20:00 HS",
       link: "/ministerios/mujeres",
@@ -42,14 +42,14 @@ export default function Equipo() {
     },
     {
       img: jovenesEP.src,
-      nombre: "Equipo pastoral",
+      nombre: "Equipo de Colaboradores",
       ministerio: "Cita Kids",
       descripcion: "Reunión sábados 18:00 hs.",
       link: "/ministerios/citaKids",
     },
     {
       img: jovenesEP.src,
-      nombre: "Equipo pastoral",
+      nombre: "Equipo de colaboradores",
       ministerio: "Pre Adolescentes y Jóvenes",
       descripcion: "Reunión sábados 20:00 hs.",
       link: "/ministerios/jovenes",
