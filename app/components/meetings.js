@@ -32,14 +32,7 @@ const Meetings = () => {
       type: "oracion",
       link: "/ministerios/adicciones",
     },
-    {
-      day: "Jueves",
-      time: "20:00 HS",
-      title: "Escuela Para Padres",
-      description: "A partir del 14 de mayo. Duración 2 meses",
-      type: "estudio",
-      link: "/ministerios/matrimonios",
-    },
+
     {
       day: "Viernes",
       time: "20:00 HS",
@@ -72,19 +65,17 @@ const Meetings = () => {
 
   const getTypeStyle = (type) => {
     const styles = {
-      principal: "bg-white/10 border-white/20",
-      jovenes: "bg-red-500/10 border-red-400/30",
-      oracion: "bg-blue-500/10 border-blue-400/30",
-      estudio: "bg-green-500/10 border-green-400/30",
-      infantil: "bg-yellow-500/10 border-yellow-400/30",
-      hombres: "bg-blue-500/10 border-blue-400/30",
-    };
+      principal: "border-l-red-500 bg-red-500/50 text-red-400 border-red-500/30",
+      hombres: "border-l-cyan-400 bg-cyan-400/50 text-cyan-400 border-cyan-400/30 border-l-pink-500 bg-pink-500/50 text-pink-400 border-pink-500/30",
+      infantil: "border-l-amber-400 bg-amber-400/50 text-amber-400 border-amber-400/30",
+      oracion: "border-l-purple-500 bg-purple-500/50 text-purple-400 border-purple-500/30",
+      };
 
     return styles[type] || "bg-white/10 border-white/20";
   };
 
   return (
-    <section className="py-24 bg-gradient-to-b from-[#2a2a2a] to-[#121212] text-white">
+    <section className="py-24 bg-gradient-to-b from-[#2a2a2a] to-[#181818] text-white">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* HEADER */}
@@ -101,21 +92,26 @@ const Meetings = () => {
         {/* GRID */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {meetings.map((meeting, index) => (
+            
+            <div className={`cardMeetings grid    rounded-2xl  backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl`}>
+              <div className={`barraCard ${getTypeStyle(
+                meeting.type
+              )}`}>
+
+              </div>
             <div
               key={index}
-              className={`group p-6 rounded-2xl border backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl ${getTypeStyle(
-                meeting.type
-              )}`}
+              className={` pt-6 pb-6 `}
             >
-
+            
               {/* TOP */}
               <div className="flex justify-between items-start mb-6">
                 <span className="text-sm text-gray-400">
-                  {meeting.day}
+                  {meeting.day.toUpperCase()}
                 </span>
 
-                <span className="text-xs px-3 py-1 rounded-full bg-white/10">
-                  {meeting.type}
+                <span className={`capitalize text-xs px-4 py-2 rounded-full bg-[#3a3a3a]`}>
+                  {meeting.type === "oracion" ? "oración" : meeting.type === "jovenes" ? "Jóvenes" : meeting.type}
                 </span>
               </div>
 
@@ -127,7 +123,7 @@ const Meetings = () => {
               </div>
 
               {/* TITLE */}
-              <h3 className="text-xl font-semibold mb-2 group-hover:text-red-400 transition">
+              <h3 className="text-xl font-semibold mb-2 transition">
                 {meeting.title}
               </h3>
 
@@ -142,12 +138,8 @@ const Meetings = () => {
               <div className="w-full h-px bg-white/10 my-4"></div>
 
               {/* CTA */}
-              <Link
-                href={meeting.link}
-                className="text-sm text-red-400 hover:text-red-300 transition inline-block"
-              >
-                Ver más →
-              </Link>
+
+            </div>
             </div>
           ))}
         </div>

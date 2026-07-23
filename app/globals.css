@@ -48,6 +48,16 @@ body {
 .textAndBtn{
   padding: 20rem;
 }
+.barraCard{
+  width: 10px;
+  border-top-left-radius: 16px ;
+  border-bottom-left-radius: 16px;
+  
+}
+.cardMeetings{
+  padding-right: 3rem;
+  grid-template-columns: 0.2fr 2fr;
+}
 @keyframes entradaCard {
   0% {
     transform: translateX(300px);
