@@ -54,8 +54,6 @@ export default function NosotrosPage() {
           <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
           La vida del pastor es una vocación llena de desafíos, sacrificios y bendiciones. El pastor lleva la carga de cuidar las almas de la congregación. Esto implica orar por ellos, aconsejarlos, visitarlos en momentos de necesidad y guiarlos en su caminar con Dios. La responsabilidad de predicar la Palabra de Dios con fidelidad y amor es un peso significativo. 
 El pastor estudia, prepara las predicas y ministra incluso cuando su propio corazón está afligido. Las emergencias, las visitas hospitalarias, los funerales y las reuniones con miembros de la iglesia pueden surgir en cualquier momento. Esto requiere de su flexibilidad y sacrificio personal.
-Marcos Benigno
-Pastor de la Iglesia Cita con la Vida Monte Cristo
 
           </p>
         </div>

@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Ministerio de Adicciones | Cita con la Vida",
+  title: "Ministerio de Adicciones | Cita Con La Vida",
   description:
     "Un espacio de apoyo, fe y restauración para quienes buscan libertad y sanidad en Cristo.",
 };

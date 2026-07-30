@@ -46,7 +46,7 @@ Nuestras reuniones
       {/* INTRO */}
       <section className="py-20 bg-gray-50 text-center">
         <h2 className="text-4xl font-bold text-gray-900 mb-6">
-          Cita Con la Vida Montecristo
+          Cita Con La Vida Montecristo
         </h2>
 
         <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">

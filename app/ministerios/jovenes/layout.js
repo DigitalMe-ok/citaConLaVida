@@ -2,7 +2,7 @@
 /* import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 export const metadata = {
-  title: "Jovenes | Cita con la Vida",
+  title: "Jovenes | Cita Con La Vida",
   description: "Ministerio de jovenes",
 };
 
@@ -21,7 +21,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Jovenes | Cita con la Vida",
+  title: "Jovenes | Cita Con La Vida",
   description: "Ministerio de jovenes",
 };
 

@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Ministerio de Hombres | Cita con la Vida",
+  title: "Ministerio de Hombres | Cita Con La Vida",
   description: "Ministerio de hombres",
 };
 

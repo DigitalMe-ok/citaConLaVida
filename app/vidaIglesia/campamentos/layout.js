@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Campamentos | Cita con la Vida",
+  title: "Campamentos | Cita Con La Vida",
   description: "Campamentos cristianos.",
 };
 

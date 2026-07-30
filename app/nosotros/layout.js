@@ -38,7 +38,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Nosotros | Cita con la vida",
+  title: "Nosotros | Cita Con La Vida",
   description: "Iglesia evangélica pentecostés",
 };
 

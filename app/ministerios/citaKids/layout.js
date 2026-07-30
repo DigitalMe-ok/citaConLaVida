@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Cita Kids | Cita con la Vida",
+  title: "Cita Kids | Cita Con La Vida",
   description: "Actividades, reuniones y visión de Cita kids.",
 };
 

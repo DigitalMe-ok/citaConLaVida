@@ -514,7 +514,7 @@ const Navbar = () => {
 
                 {openDropdown === "ministerios" && (
                   <div className="top-full flex flex-col top-0  mt-2 w-64 bg-white rounded-xl shadow-xl border border-gray-200 py-2 z-50 animate-in slide-in-from-top-2 duration-200">
-                    <Link
+                    {/* <Link
                       href="/ministerios/mujeres"
                       className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200"
                     >
@@ -541,7 +541,7 @@ const Navbar = () => {
                           </p>
                         </div>
                       </div>
-                    </Link>
+                    </Link> */}
                     <Link
                       href="/ministerios/hombres"
                       className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200"
@@ -598,7 +598,7 @@ const Navbar = () => {
                         </div>
                       </div>
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/ministerios/matrimonios"
                       className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200"
                     >
@@ -625,7 +625,7 @@ const Navbar = () => {
                           </p>
                         </div>
                       </div>
-                    </Link>
+                    </Link> */}
                     <Link
                       href="/ministerios/jovenes"
                       className="block px-4 py-3 text-gray-700 hover:bg-red-50 hover:text-red-600 transition-colors duration-200"

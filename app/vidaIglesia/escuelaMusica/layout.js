@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Escuela de musicos | Cita con la Vida",
+  title: "Escuela de musicos | Cita Con La Vida",
   description: "Escuela de música.",
 };
 
