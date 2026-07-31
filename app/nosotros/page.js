@@ -34,7 +34,7 @@ export default function Home() {
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import BannerCards from "../components/BannerCards";
-import imgBanner from "../../public/imgNosotros.webp";
+import imgBanner from "../../public/REUNIONESFOTOS/NosotrosBanner.avif";
 import NavRedes from "../components/navRedes"
 
 import Image from "next/image";

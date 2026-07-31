@@ -5,7 +5,6 @@ import Meetings from "./components/meetings";
 import Locations from "./components/locations";
 import NavRedes from "./components/navRedes";
 import SoyNuevo from "./components/soyNuevo";
-import EscParaPadres from "./components/EscParaPadres";
 import dynamic from 'next/dynamic';
 import Bautismo from "./components/Bautismo";
 
@@ -14,10 +13,9 @@ export default function Home() {
 
   const imgs = [
      // 🔥 Evento (sin overlay ni texto)
-    "/CarouselMain2.webp",
-    "/carousel1.webp",
-    "/santaCena.webp",
-    "/santaCena1.webp",
+    "/REUNIONESFOTOS/imgBanner2.avif",
+    "/REUNIONESFOTOS/imgBannerInicio.avif",
+    "/REUNIONESFOTOS/imgBannerIglesia.avif",
     "/santaCena2.webp",
     "/santaCena3.webp",
   ];

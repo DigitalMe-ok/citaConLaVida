@@ -93,7 +93,7 @@ const Meetings = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {meetings.map((meeting, index) => (
             
-            <div className={`cardMeetings grid    rounded-2xl  backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl`}>
+            <div key={index} className={`cardMeetings grid    rounded-2xl  backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl`}>
               <div className={`barraCard ${getTypeStyle(
                 meeting.type
               )}`}>
