@@ -58,7 +58,7 @@ Nuestras reuniones
       {/* <EscParaPadres /> */}
 
       <SoyNuevo />
-       <Bautismo/>   
+       {/* <Bautismo/>    */}
 
       <Locations />
 

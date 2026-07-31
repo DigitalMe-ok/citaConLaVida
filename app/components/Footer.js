@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* SECCIÓN 1 - LOGO Y DESCRIPCIÓN */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">CITA CON LA VIDA MONTECRISTO</h2>
+          <h2 className="text-2xl font-bold mb-4">Cita Con La Vida Montecristo</h2>
           <p className="text-gray-700 text-sm leading-relaxed">
             Una familia que adora, comparte y crece en la fe de Jesucristo.
             ¡Te esperamos en nuestras reuniones y actividades!

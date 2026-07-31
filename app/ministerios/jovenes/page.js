@@ -190,7 +190,7 @@ const imgsParaCarousel = [
 
         <div className="relative max-w-4xl mx-auto text-center">
           <p
-            className="text-[#facc15] text-xs md:text-sm tracking-[0.3em] uppercase mb-6"
+            className="text-[#facc15] text-xs md:text-sm tracking-[0.3em]  mb-6"
             style={{ fontFamily: "var(--font-mono)" }}
           >
             Iglesia Cita Con La Vida · Montecristo
