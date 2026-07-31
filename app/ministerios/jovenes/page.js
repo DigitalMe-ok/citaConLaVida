@@ -206,7 +206,7 @@ const imgsParaCarousel = [
           >
             Jóvenes
           </h1>
-          <p className="text-[#C7BBDA] text-lg md:text-xl max-w-xl mx-auto">
+          <p className="text-[#C7BBDA] mb-5 text-lg md:text-xl max-w-xl mx-auto">
             Desarrollá tu don al servicio de Dios.
           </p>
         </div>
@@ -378,10 +378,10 @@ const imgsParaCarousel = [
               lineHeight: 1,
             }}
           >
-            Sábados · 20:00 hs
+            Sábados · 20:00hs
           </p>
           <p className="text-[#2222222] mt-4 text-lg">
-            Iglesia Cita con la Vida — Montecristo
+            Iglesia Cita Con La Vida Montecristo
           </p>
         </div>
       </section>
