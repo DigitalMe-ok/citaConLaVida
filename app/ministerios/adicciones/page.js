@@ -108,7 +108,7 @@ Por sobre todas las cosas, creemos firmemente que la verdadera transformación l
   <p className="text-lg leading-relaxed text-gray-700">
     📅 Todos los <strong>Jueves</strong>  <br />
     ⏰ 20:30 hs <br />
-    📍  Iglesia CITA CON LA VIDA MONTECRISTO
+    📍  Iglesia Cita Con La Vida Monte Cristo
   </p>
 </section>
 

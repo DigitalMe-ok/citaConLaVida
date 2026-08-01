@@ -65,7 +65,7 @@ export default function Equipo() {
           Equipo de colaboradores
         </h1>
         <h2 className="text-gray-300 text-lg">
-          CITA CON LA VIDA MONTECRISTO
+          Cita Con La Vida Monte Cristo
         </h2>
       </BannerCards>
 

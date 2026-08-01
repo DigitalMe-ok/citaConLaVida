@@ -17,7 +17,7 @@ export default function EscMusicPage() {
     <>    
     <section className="mt-60 mb-50 flex flex-col gap-10 justify-center items-center">
     <h1 className="text-4xl text-gray-800">Escuela de músicos</h1>
-    <h2 className="text-md text-gray-600">CITA CON LA VIDA MONTECRISTO</h2>
+    <h2 className="text-md text-gray-600">Cita Con La Vida Monte Cristo</h2>
     {
       txtBanner.map((element,index) => (
         

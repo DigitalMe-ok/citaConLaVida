@@ -128,7 +128,7 @@ El enfoque debe ser sano y divertido, adaptado a la edad de cada niño. Las lecc
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Horarios de Reunión</h2>
         <p className="text-lg text-gray-700">
           📅 Todos los <strong>sábados</strong> a las <strong>11:00 hs</strong> <br />
-          📌 CITA CON LA VIDA MONTECRISTO
+          📌 Cita Con La Vida Monte Cristo
         </p>
       </section>
       <h3 className="text-stone-800 text-center w-full mb-10 mt-5 text-5xl">Galería</h3>

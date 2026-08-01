@@ -20,7 +20,7 @@ export default function CampamentosPage() {
       <h1 className="text-4xl text-gray-300 text-center"> 
         Campamentos
       </h1>
-      <h3 className="text-lg text-gray-400 text-center">CITA CON LA VIDA</h3>
+      <h3 className="text-lg text-gray-400 text-center">Cita Con La Vida</h3>
     </BannerCards>
 
 

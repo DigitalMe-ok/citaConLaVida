@@ -193,7 +193,7 @@ const imgsParaCarousel = [
             className="text-[#facc15] text-xs md:text-sm tracking-[0.3em]  mb-6"
             style={{ fontFamily: "var(--font-mono)" }}
           >
-            Iglesia Cita Con La Vida · Montecristo
+            Iglesia Cita Con La Vida · Monte Cristo
           </p>
           <h1
             className="text-white uppercase leading-[0.85] mb-6"
@@ -257,10 +257,10 @@ const imgsParaCarousel = [
             </h3>
             <ul className="space-y-5">
               {[
-                ["Fe práctica", "que se sostiene en el día a día, no solo el sábado a la noche."],
-                ["Comunidad auténtica", "un lugar donde se puede llegar tal cual uno es."],
-                ["Desarrollo personal", "acompañamiento real para estudio, trabajo y vocación."],
-                ["Servicio con propósito", "cada don encuentra un lugar para ser usado."],
+                ["Fe práctica", "Que se sostiene en el día a día, no solo el sábado a la noche."],
+                ["Comunidad auténtica", "Un lugar donde se puede llegar tal cual uno es."],
+                ["Desarrollo personal", "Acompañamiento real para estudio, trabajo y vocación."],
+                ["Servicio con propósito", "Cada don encuentra un lugar para ser usado."],
               ].map(([title, desc]) => (
                 <li key={title} className="flex gap-4">
                   <span className="w-1 shrink-0 rounded-full bg-[#facc15]" />
@@ -381,7 +381,7 @@ const imgsParaCarousel = [
             Sábados · 20:00hs
           </p>
           <p className="text-[#2222222] mt-4 text-lg">
-            Iglesia Cita Con La Vida Montecristo
+            Iglesia Cita Con La Vida Monte Cristo
           </p>
         </div>
       </section>

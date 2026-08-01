@@ -113,7 +113,7 @@ export default function Contacto() {
               <div>
                 <h2 className="text-4xl font-bold text-gray-900 mb-6">Información de Contacto</h2>
                 <p className="text-lg text-gray-600 mb-8">
-                  Estamos ubicados en Montecristo y nos encantaría conocerte. 
+                  Estamos ubicados en Monte Cristo y nos encantaría conocerte. 
                   No dudes en contactarnos para cualquier consulta o información.
                 </p>
               </div>
@@ -130,7 +130,7 @@ export default function Contacto() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900">Ubicación</h3>
-                      <p className="text-gray-600">Pje. Cervantes 675, Montecristo Córdoba Argentina</p>
+                      <p className="text-gray-600">Pje. Cervantes 675, Monte Cristo Córdoba Argentina</p>
                     
                     </div>
                   </div>

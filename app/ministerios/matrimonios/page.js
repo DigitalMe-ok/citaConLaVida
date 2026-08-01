@@ -96,7 +96,7 @@ Mantener a Dios como nuestra prioridad más importante es esencial. 1 Corintios 
     <>
       <BannerCards imgBanner={imgBanner}>
         <h1 className="text-4xl text-center text-gray-200">Ministerio de matrimonios</h1>
-        <h2 className="text-md text-gray-300">CITA CON LA VIDA MONTECRISTO</h2>
+        <h2 className="text-md text-gray-300">Cita Con La Vida Monte Cristo</h2>
       </BannerCards>
 
       <section className="py-12 px-6 max-w-screen mx-auto text-center">
@@ -115,7 +115,7 @@ Mantener a Dios como nuestra prioridad más importante es esencial. 1 Corintios 
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Horarios de Reunión</h2>
         <p className="text-lg text-gray-700">
           📅 Tercer <strong>jueves</strong> del mes a las <strong>20:00 hs</strong> <br />
-          📌 IGLESIA CITA CON LA VIDA MONTECRISTO
+          📌 IGLESIA Cita Con La Vida Monte Cristo
         </p>
       </section>
 

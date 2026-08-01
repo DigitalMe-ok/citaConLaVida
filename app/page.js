@@ -23,7 +23,7 @@ export default function Home() {
   const paragraphAbUs = `
 Creemos en una vida transformada por el poder del amor de Dios. Nuestro propósito es inspirar y equipar a las personas para vivir una vida plena y significativa en Cristo. 
 Nuestra misión es proporcionar un lugar donde cada persona pueda experimentar el amor incondicional de Dios, crecer en su relación con Él y ser capacitado para marcar una diferencia positiva en el mundo.
-Nuestras reuniones
+
 `;
 
   return (
@@ -37,14 +37,14 @@ Nuestras reuniones
         </h1>
 
         <h2 className="text-lg md:text-xl text-gray-200">
-          CITA CON LA VIDA MONTECRISTO
+          Cita Con La Vida Monte Cristo
         </h2>
       </Carousel>
 
       {/* INTRO */}
       <section className="py-20 bg-gray-50 text-center">
         <h2 className="text-4xl font-bold text-gray-900 mb-6">
-          Cita Con La Vida Montecristo
+          Cita Con La Vida Monte Cristo
         </h2>
 
         <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
